@@ -12,14 +12,13 @@ It allows users to create, update, delete, list, and search tasks with advanced 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/task-api.git
-cd task-api
+git clone https://github.com/Ahmedlotfe/Advanced-Task-Management-API.git
+cd Advanced-Task-Management-API
 ```
 
 ### 2. Install dependencies
 ```bash
 composer install
-npm install && npm run dev
 ```
 
 ### 3. Setup environment
@@ -87,7 +86,7 @@ php artisan serve
 | POST   | `/api/tasks`         | Create a new task               |
 | GET    | `/api/tasks/{id}`    | Get task by ID                  |
 | PUT    | `/api/tasks/{id}/status` | Update task status          |
-| DELETE | `/api/tasks/{id}`    | Soft delete task                |
+| DELETE | `/api/tasks/{task}`    | Soft delete task                |
 | GET    | `/api/task/search`  | Full-text search                 |
 
 ---
